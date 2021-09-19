@@ -28,8 +28,7 @@ Resolving deltas: 100% (91/91), done.
 
 
 5. Compilation 
-rushi@RUSHI-PC:~$ cd HotelManagment/
-rushi@RUSHI-PC:~/HotelManagment$ /usr/local/bin/cmake CMakeLists.txt
+cd HotelManagment ; /usr/local/bin/cmake CMakeLists.txt
 
 ```
 -- The C compiler identification is GNU 7.5.0
@@ -61,7 +60,8 @@ rushi@RUSHI-PC:~/HotelManagment$ /usr/local/bin/cmake CMakeLists.txt
 -- Build files have been written to: /home/rushi/HotelManagment
 ```
 
-rushi@RUSHI-PC:~/HotelManagment$ make
+make;
+
 ```
 Scanning dependencies of target gtest
 [  5%] Building CXX object src/test/libs/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
@@ -102,7 +102,7 @@ CMakeFiles/          HotelManagementTest  libs/
 
 
 5. Run the test 
-cd HotelManagment/src/test$ ./HotelManagementTest
+cd HotelManagment/src/test ;./HotelManagementTest
 
 ```
 [==========] Running 9 tests from 3 test suites.
