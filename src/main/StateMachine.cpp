@@ -31,7 +31,7 @@ RoomStatusHolder Vacant::onEvent(const Event &event, RoomName roomName) {
 //Repairing completed become Available
 RoomStatusHolder Repair::onEvent(const Event &event, RoomName roomName) {
     if (event == Event::RepairingCompleted) {
-        return make_unique<Available>();
+        return make_unique<Vacant>();
     }
     return nullptr;
 }
