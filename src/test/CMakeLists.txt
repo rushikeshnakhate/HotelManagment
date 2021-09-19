@@ -1,0 +1,7 @@
+set(PROJECT_NAME HotelManagementTest)
+project(${PROJECT_NAME})
+add_subdirectory(libs)
+file(GLOB SOURCES *cpp)
+include_directories(libs/googletest/include)
+add_executable(${PROJECT_NAME} test_main.cpp ${SOURCES})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main)
