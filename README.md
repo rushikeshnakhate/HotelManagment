@@ -5,5 +5,7 @@ Problem Statement: An owner of a boutique hotel asked you to develop a program t
 
 Development Process : 
 
-1. Devided Problem into bunch of small Tasks All can be found here 
+1. Devided Problem into bunch of small Tasks All can be found here https://github.com/rushikeshnakhate/HotelManagment/issues?q=
 2. TDD Approch - Added test for each path and then Added implelemntation .
+3. Branchs information Please find the list of branches , PR raise during the development process -https://github.com/rushikeshnakhate/HotelManagment/branches
+4. 
